@@ -1,0 +1,26 @@
+body{
+    background-color: cornflowerblue;
+}
+h1{
+    color: red;
+    background-color: lightgreen;
+}
+#show_sketch{
+    float: right;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid gainsboro;
+    border-radius: 20px;
+    margin-top: 100px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 5px 5px 30px violet;}
+    to{box-shadow: 5px 5px 30px slateblue;}
+    }
